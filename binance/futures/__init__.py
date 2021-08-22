@@ -55,7 +55,7 @@ class Futures(API):
     from binance.futures.account import change_position_margin
     from binance.futures.account import margin_position_history
     from binance.futures.account import risk
-    from binance.futures.account import trades
+    from binance.futures.account import account_trades
     from binance.futures.account import income
     from binance.futures.account import brackets
     from binance.futures.account import adl_quantile

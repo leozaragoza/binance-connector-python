@@ -530,7 +530,7 @@ def risk(self, **kwargs):
     return self.sign_request("GET", url_path, payload)
 
 
-def trades(self, symbol: str, **kwargs):
+def account_trades(self, symbol: str, **kwargs):
     """Account Trade List (USER_DATA)
 
     Get trades for a specific account and symbol.
